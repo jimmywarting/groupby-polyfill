@@ -11,8 +11,8 @@ This will conditionally polyfill global Object/Map with the missing groupBy
 method using `??=` but I would recommend that you conditionally import it if it's
 needed. See comp. table at MDN if you need this:
 
-[Object.groupBy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy)
-[Map.groupBy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/groupBy)
+- [Object.groupBy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/groupBy)
+- [Map.groupBy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/groupBy)
 
 Documentation and code example is in this links too.
 
