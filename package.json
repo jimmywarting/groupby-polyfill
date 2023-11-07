@@ -1,23 +1,21 @@
 {
-  "name": "<package name>",
+  "name": "groupby-polyfill",
   "version": "1.0.0",
-  "description": "<package desc>",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "small zero dependent polyfill for `Object.groupBy` and `Map.groupBy`",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jimmywarting/<package name>.git"
+    "url": "git+https://github.com/jimmywarting/groupby-polyfill.git"
   },
   "keywords": [
-    "key",
-    "words"
+    "groupBy",
+    "Object.groupBy",
+    "Map.groupBy",
+    "polyfill"
   ],
   "author": "Jimmy Wärting <jimmy@warting.se> (https://jimmy.warting.se/opensource)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jimmywarting/<package name>/issues"
+    "url": "https://github.com/jimmywarting/groupby-polyfill/issues"
   },
   "engines": {
     "node": ">=16"
@@ -25,7 +23,7 @@
   "exports": {
     "./lib/*.js": "./lib/*.js"
   },
-  "homepage": "https://github.com/jimmywarting/<package name>#readme",
+  "homepage": "https://github.com/jimmywarting/groupby-polyfill#readme",
   "funding": [
     {
       "type": "github",
